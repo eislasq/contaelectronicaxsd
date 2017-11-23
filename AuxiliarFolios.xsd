@@ -15,7 +15,7 @@
                         <xs:sequence>
                             <xs:element name="ComprNal" minOccurs="0" maxOccurs="unbounded">
                                 <xs:annotation>
-                                    <xs:documentation>Nodo opcional para relacionar el detalle de los comprobantes de origen nacional relacionados con la transacción. Se considera que se debe identificar, el soporte documental, tanto en la provisión, como en el pago y/o cobro de cada una de las cuentas y subcuentas que se vean afectadas.  Se convierte en requerido cuando se cuente con la información.</xs:documentation>
+                                    <xs:documentation>Nodo opcional para relacionar el detalle de los comprobantes de origen nacional relacionados con la transacción. Se considera que se debe identificar, el soporte documental, tanto en la provisión, como en el pago y/o cobro de cada una de las cuentas y subcuentas que se vean afectadas. Se convierte en requerido cuando se cuente con la información.</xs:documentation>
                                 </xs:annotation>
                                 <xs:complexType>
                                     <xs:attribute name="UUID_CFDI" use="required">
@@ -32,7 +32,7 @@
                                     </xs:attribute>
                                     <xs:attribute name="MontoTotal" type="RepAux:t_importe" use="required">
                                         <xs:annotation>
-                                            <xs:documentation>Atributo requerido para expresar el  monto  total del CFDI que soporte la operación  (Incluye IVA en su caso)</xs:documentation>
+                                            <xs:documentation>Atributo requerido para expresar el monto total del CFDI que soporte la operación (Incluye IVA en su caso)</xs:documentation>
                                         </xs:annotation>
                                     </xs:attribute>
                                     <xs:attribute name="RFC" use="required">
@@ -291,7 +291,7 @@
             </xs:attribute>
             <xs:attribute name="NumTramite" use="optional">
                 <xs:annotation>
-                    <xs:documentation>Atributo opcional para expresar el número de trámite asignado a la solicitud de devolución o compensación al que hace referencia el reporte auxiliar de los folios de los comprobantes fiscales de las pólizas. Requerido para tipo de solicitud  = DE  o CO. Se convierte en requerido cuando se cuente con la información.</xs:documentation>
+                    <xs:documentation>Atributo opcional para expresar el número de trámite asignado a la solicitud de devolución o compensación al que hace referencia el reporte auxiliar de los folios de los comprobantes fiscales de las pólizas. Requerido para tipo de solicitud = DE o CO. Se convierte en requerido cuando se cuente con la información.</xs:documentation>
                 </xs:annotation>
                 <xs:simpleType>
                     <xs:restriction base="xs:string">

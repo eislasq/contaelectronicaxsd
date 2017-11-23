@@ -21,7 +21,7 @@
                                     <xs:sequence>
                                         <xs:element name="CompNal" minOccurs="0" maxOccurs="unbounded">
                                             <xs:annotation>
-                                                <xs:documentation>Nodo opcional para relacionar el detalle de los comprobantes de origen nacional relacionados con la transacción. Se considera que se debe identificar, el soporte documental, tanto en la provisión, como en el pago y/o cobro de cada una de las cuentas y subcuentas que se vean afectadas.  Se convierte en requerido cuando se cuente con la información.</xs:documentation>
+                                                <xs:documentation>Nodo opcional para relacionar el detalle de los comprobantes de origen nacional relacionados con la transacción. Se considera que se debe identificar, el soporte documental, tanto en la provisión, como en el pago y/o cobro de cada una de las cuentas y subcuentas que se vean afectadas. Se convierte en requerido cuando se cuente con la información.</xs:documentation>
                                             </xs:annotation>
                                             <xs:complexType>
                                                 <xs:attribute name="UUID_CFDI" use="required">
@@ -140,7 +140,7 @@
                                         </xs:element>
                                         <xs:element name="CompExt" minOccurs="0" maxOccurs="unbounded">
                                             <xs:annotation>
-                                                <xs:documentation>Nodo opcional para relacionar el detalle de los comprobantes de origen extranjero relacionados con la transacción.  Se considera que se debe identificar, el soporte documental, tanto en la provisión, como en el pago y/o cobro de cada una de las cuentas y subcuentas que se vean afectadas. Se convierte en requerido cuando se cuente con la información.</xs:documentation>
+                                                <xs:documentation>Nodo opcional para relacionar el detalle de los comprobantes de origen extranjero relacionados con la transacción. Se considera que se debe identificar, el soporte documental, tanto en la provisión, como en el pago y/o cobro de cada una de las cuentas y subcuentas que se vean afectadas. Se convierte en requerido cuando se cuente con la información.</xs:documentation>
                                             </xs:annotation>
                                             <xs:complexType>
                                                 <xs:attribute name="NumFactExt" use="required">
@@ -251,7 +251,7 @@
                                                 </xs:attribute>
                                                 <xs:attribute name="RFC" use="required">
                                                     <xs:annotation>
-                                                        <xs:documentation>Atributo requerido para expresar el RFC  relacionado con el movimiento. El RFC al que se hace referencia, es el distinto del contribuyente que envía los datos, es decir, el RFC del tercero vinculado.</xs:documentation>
+                                                        <xs:documentation>Atributo requerido para expresar el RFC relacionado con el movimiento. El RFC al que se hace referencia, es el distinto del contribuyente que envía los datos, es decir, el RFC del tercero vinculado.</xs:documentation>
                                                     </xs:annotation>
                                                     <xs:simpleType>
                                                         <xs:restriction base="xs:string">
@@ -361,7 +361,7 @@
                                                 </xs:attribute>
                                                 <xs:attribute name="RFC" use="required">
                                                     <xs:annotation>
-                                                        <xs:documentation>Atributo requerido para expresar el RFC  relacionado con el movimiento. El RFC al que se hace referencia, es el distinto del contribuyente que envía los datos, es decir, el RFC del tercero vinculado.</xs:documentation>
+                                                        <xs:documentation>Atributo requerido para expresar el RFC relacionado con el movimiento. El RFC al que se hace referencia, es el distinto del contribuyente que envía los datos, es decir, el RFC del tercero vinculado.</xs:documentation>
                                                     </xs:annotation>
                                                     <xs:simpleType>
                                                         <xs:restriction base="xs:string">
@@ -424,7 +424,7 @@
                                                 </xs:attribute>
                                                 <xs:attribute name="RFC" use="required">
                                                     <xs:annotation>
-                                                        <xs:documentation>Atributo requerido para expresar el RFC  relacionado con la transacción. El RFC al que se hace referencia, es el distinto del contribuyente que envía los datos, es decir, el RFC del tercero vinculado.</xs:documentation>
+                                                        <xs:documentation>Atributo requerido para expresar el RFC relacionado con la transacción. El RFC al que se hace referencia, es el distinto del contribuyente que envía los datos, es decir, el RFC del tercero vinculado.</xs:documentation>
                                                     </xs:annotation>
                                                     <xs:simpleType>
                                                         <xs:restriction base="xs:string">
@@ -609,7 +609,7 @@
             </xs:attribute>
             <xs:attribute name="NumTramite" use="optional">
                 <xs:annotation>
-                    <xs:documentation>Atributo opcional para expresar el número de trámite asignado a la solicitud de devolución o compensación al que hace referencia la solicitud de la póliza. Requerido para tipo de solicitud  = DE  o CO. Se convierte en requerido cuando se cuente con la información.</xs:documentation>
+                    <xs:documentation>Atributo opcional para expresar el número de trámite asignado a la solicitud de devolución o compensación al que hace referencia la solicitud de la póliza. Requerido para tipo de solicitud = DE o CO. Se convierte en requerido cuando se cuente con la información.</xs:documentation>
                 </xs:annotation>
                 <xs:simpleType>
                     <xs:restriction base="xs:string">

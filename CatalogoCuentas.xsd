@@ -62,7 +62,7 @@
                         </xs:attribute>
                         <xs:attribute name="Natur" use="required">
                             <xs:annotation>
-                                <xs:documentation>Atributo requerido para expresar la naturaleza de la cuenta o subcuenta. (D - Deudora, A - Acreedora). ( Activo = D ) ( Pasivo = A ) ( Capital = A ) ( Ingreso = A ) ( Costo = D ) ( Gasto = D ) ( Resultado Integral de Financiamiento = D y/o A ) ( Cuentas de orden = D y/o A ). Existen cuentas de Activo, Pasivo y Capital que por  su naturaleza pueden presentarse de manera Deudora o Acreedora.</xs:documentation>
+                                <xs:documentation>Atributo requerido para expresar la naturaleza de la cuenta o subcuenta. (D - Deudora, A - Acreedora). ( Activo = D ) ( Pasivo = A ) ( Capital = A ) ( Ingreso = A ) ( Costo = D ) ( Gasto = D ) ( Resultado Integral de Financiamiento = D y/o A ) ( Cuentas de orden = D y/o A ). Existen cuentas de Activo, Pasivo y Capital que por su naturaleza pueden presentarse de manera Deudora o Acreedora.</xs:documentation>
                             </xs:annotation>
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">

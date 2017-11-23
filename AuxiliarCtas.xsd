@@ -35,7 +35,7 @@
                                     </xs:attribute>
                                     <xs:attribute name="Concepto" use="required">
                                         <xs:annotation>
-                                            <xs:documentation>Atributo requerido para expresar el concepto de la transacción  que integra el auxiliar.</xs:documentation>
+                                            <xs:documentation>Atributo requerido para expresar el concepto de la transacción que integra el auxiliar.</xs:documentation>
                                         </xs:annotation>
                                         <xs:simpleType>
                                             <xs:restriction base="xs:string">
@@ -59,7 +59,7 @@
                         </xs:sequence>
                         <xs:attribute name="NumCta" use="required">
                             <xs:annotation>
-                                <xs:documentation>Atributo requerido para expresar la clave con que se distingue  la cuenta o subcuenta que se afecta por la transacción que integra el auxiliar.</xs:documentation>
+                                <xs:documentation>Atributo requerido para expresar la clave con que se distingue la cuenta o subcuenta que se afecta por la transacción que integra el auxiliar.</xs:documentation>
                             </xs:annotation>
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
@@ -164,7 +164,7 @@
             </xs:attribute>
             <xs:attribute name="NumTramite" use="optional">
                 <xs:annotation>
-                    <xs:documentation>Atributo opcional para expresar el número de trámite asignado a la solicitud de devolución o compensación al que hace referencia el auxiliar de la cuenta o subcuenta. Requerido para tipo de solicitud  = DE  o CO. Se convierte en requerido cuando se cuente con la información.</xs:documentation>
+                    <xs:documentation>Atributo opcional para expresar el número de trámite asignado a la solicitud de devolución o compensación al que hace referencia el auxiliar de la cuenta o subcuenta. Requerido para tipo de solicitud = DE o CO. Se convierte en requerido cuando se cuente con la información.</xs:documentation>
                 </xs:annotation>
                 <xs:simpleType>
                     <xs:restriction base="xs:string">

@@ -13,7 +13,7 @@
                     <xs:complexType>
                         <xs:attribute name="NumCta" use="required">
                             <xs:annotation>
-                                <xs:documentation>Atributo requerido para expresar la clave asignada con que se distingue la cuenta o subcuenta en el catálogo de cuentas del  contribuyente.</xs:documentation>
+                                <xs:documentation>Atributo requerido para expresar la clave asignada con que se distingue la cuenta o subcuenta en el catálogo de cuentas del contribuyente.</xs:documentation>
                             </xs:annotation>
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
